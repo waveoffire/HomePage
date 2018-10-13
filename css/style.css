@@ -107,12 +107,9 @@ body {
   font-size: 2em;
 }
 .content {
-  top: 100vh;
-  margin-top: 10%;
-  left: 10%;
-  right: 10%;
-  position: relative;
-  max-width: 80%;
+  padding-top: 105vh;
+  padding-left: 10%;
+  padding-right: 10%;
   line-height: 1.8;
   z-index: 50;
   margin-bottom: -10%;
@@ -123,6 +120,7 @@ body {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   min-height: 100%;
+  padding-top: 10%;
 }
 .coltext {
   -ms-flex: 0 0 55%;
