@@ -45,13 +45,20 @@ body {
   background: white;
   color: black;
 }
-.logo {
+#logo {
   position: absolute;
   left: 10%;
 
-  top: 30px;
+  top: 5px;
 
   z-index: 60;
+}
+.logo {
+  -webkit-filter: brightness(0);
+  -moz-filter: brightness(0);
+  -o-filter: brightness(0);
+  -ms-filter: brightness(0);
+  filter: brightness(0);
 }
 .menu {
   font-size: 0.8em;
@@ -187,8 +194,10 @@ li:before {
   padding: 0 35% 10px 35%;
 }
 .footer {
+  color: white;
   margin-left: -13%;
+  padding-left: 15%;
   width: 126%;
-  height: 300px;
+  height: 50px;
   background-color: #001927;
 }
