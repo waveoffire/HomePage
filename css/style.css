@@ -194,7 +194,7 @@ li:before {
 .footer {
   color: white;
   margin-left: -13%;
-  padding-left: 15%;
+  text-align: right;
   width: 126%;
   height: 50px;
   background-color: #001927;
