@@ -89,7 +89,9 @@
     }
 
     .row {
-        display: block
+        display: block;
+        min-height: 130%;
+        margin-top: 100px;
     }
 
     .colimg2 {
