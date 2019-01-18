@@ -14,7 +14,11 @@
     }
 
     .coltext {
-        width: 100%
+        width: 100%;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        margin: 0%;
+        padding: 0;
     }
 
     .colimg {
@@ -29,10 +33,6 @@
     .colmenu {
         font-size: 1em;
         width: 100%;
-        -ms-flex: 0 0 100%;
-        flex: 0 0 100%;
-        margin: 0%;
-        padding: 0;
     }
 
     body {
