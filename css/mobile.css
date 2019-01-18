@@ -3,6 +3,7 @@
         position: relative;
         top: 0;
         left: 0;
+        margin: -10px;
         width: 100%;
     }
 
@@ -11,6 +12,7 @@
         top: 0;
         left: 0;
         width: 100%;
+        margin: -10px;
     }
 
     .coltext {

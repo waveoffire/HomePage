@@ -119,6 +119,7 @@ body {
 .title {
   font-family: "Muli Extra Bold";
   font-size: 2em;
+  padding-left: 50px;
 }
 
 .content {
