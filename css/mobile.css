@@ -16,4 +16,38 @@
         min-height: 100px;
         width: 100%
     }
+
+    .slide-right {
+        animation: none;
+        -webkit-animation: none;
+    }
+
+    .slide-left {
+        animation: none;
+        -webkit-animation: none;
+    }
+
+    #dlakogo {
+        transform: translateX(0);
+    }
+
+    #dlakogophoto {
+        transform: translateX(0);
+    }
+
+    #pocophoto {
+        transform: translateX(0);
+    }
+
+    #poco {
+        transform: translateX(0);
+    }
+
+    #zkim {
+        transform: translateX(0);
+    }
+
+    #zkimphoto {
+        transform: translateX(0);
+    }
 }
