@@ -1,0 +1,56 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+#dlakogo{
+    transform: translateX(-200%);
+}
+#dlakogophoto{
+    transform: translateX(200%);
+}
+#pocophoto{
+    transform: translateX(-200%);
+}
+#poco{
+    transform: translateX(200%);
+    padding-left:40px;
+}
+#zkim{
+    transform: translateX(-200%);
+}
+#zkimphoto{
+    transform: translateX(200%);
+}
+.slide-right {
+    animation: slide-right 1s forwards;
+    -webkit-animation: slide-right 1s forwards;
+}
+
+.slide-left {
+    animation: slide-left 1s forwards;
+    -webkit-animation: slide-left 1s forwards;
+}
+    
+@keyframes slide-right {
+    0%{transform: translateX(-200%)}
+    70% {transform: translateX(5%)}
+    100% { transform: translateX(0%); }
+}
+
+@-webkit-keyframes slide-right {
+    0%{transform: translateX(-200%)}
+    70% {transform: translateX(5%)}
+    100% { transform: translateX(0%); }
+}
+    
+@keyframes slide-left {
+    0%{transform: translateX(200%)}
+    70% {transform: translateX(-5%)}
+    100% { transform: translateX(0%); }
+}
+
+@-webkit-keyframes slide-left {
+    0%{transform: translateX(200%)}
+    70% {transform: translateX(-5%)}
+    100% { transform: translateX(0%); }
+}
