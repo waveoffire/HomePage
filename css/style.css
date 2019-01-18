@@ -76,7 +76,7 @@ body {
   position: absolute;
   top: 40px;
   right: 100px;
-  width: 50%;
+  width: 60%;
   z-index: 100;
 }
 
@@ -103,6 +103,7 @@ body {
 .colmenu {
   display: inline;
   padding: 0 10% 0 0;
+  font-size: 1.3em
 }
 
 .header img {
