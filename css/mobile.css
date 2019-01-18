@@ -7,4 +7,13 @@
     .colmenu {
         font-size: 1em;
     }
+
+    body {
+        width: 100%
+    }
+
+    .header {
+        min-height: 100px;
+        right: 0;
+    }
 }
