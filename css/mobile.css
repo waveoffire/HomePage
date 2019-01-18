@@ -33,6 +33,7 @@
     .colmenu {
         font-size: 1em;
         width: 100%;
+        padding: 0 3% 0 0;
     }
 
     body {
@@ -94,5 +95,13 @@
         width: 100%;
         margin: 0%;
         padding: 0;
+    }
+
+    .menu {
+        font-size: 1.5em;
+        top: 40px;
+        right: 40px;
+        width: 70%;
+        z-index: 100;
     }
 }
