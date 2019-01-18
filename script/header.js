@@ -1,6 +1,6 @@
 var header = document.getElementById("header");
 var logo = document.getElementById("logo");
-setInterval(function() {
+setInterval(function () {
   var a = window.innerHeight;
   if (a < 700) {
     a = 700;

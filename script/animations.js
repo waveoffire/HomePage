@@ -21,3 +21,9 @@ function scrolling(nazwa){
         behavior: 'smooth' ,
         alignTo:"False"
 })}
+function scrollzero(){
+    window.scroll({
+        top: 0, 
+        left: 0, 
+        behavior: 'smooth' 
+})}

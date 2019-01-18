@@ -4,6 +4,7 @@ body {
   max-width: 100%;
   font-size: 1.3em;
 }
+
 .header {
   position: absolute;
   left: 0;
@@ -13,6 +14,7 @@ body {
   min-height: 700px;
   z-index: 50;
 }
+
 .onHeader {
   font-family: "Muli Extra Light";
   font-size: 2.5em;
@@ -22,6 +24,7 @@ body {
   top: 40%;
   left: 10%;
 }
+
 .slajd {
   color: white;
   position: absolute;
@@ -29,9 +32,11 @@ body {
   right: 8%;
   z-index: 110;
 }
+
 .slajd img {
   padding-bottom: 20px;
 }
+
 .button {
   height: 50px;
   width: 250px;
@@ -41,10 +46,12 @@ body {
   color: white;
   border: 1px solid white;
 }
+
 .button.fullcolor {
   background: white;
   color: black;
 }
+
 #logo {
   position: absolute;
   left: 10%;
@@ -53,6 +60,7 @@ body {
 
   z-index: 60;
 }
+
 .logo {
   -webkit-filter: brightness(0);
   -moz-filter: brightness(0);
@@ -60,6 +68,7 @@ body {
   -ms-filter: brightness(0);
   filter: brightness(0);
 }
+
 .menu {
   font-size: 0.8em;
   font-family: "Muli ExtraBold";
@@ -70,6 +79,7 @@ body {
   width: 50%;
   z-index: 100;
 }
+
 .sticky {
   position: sticky;
   z-index: 120;
@@ -79,6 +89,7 @@ body {
   background-color: rgba(211, 211, 211, 0.541);
   color: white;
 }
+
 .stickyScroll {
   position: sticky;
   z-index: 120;
@@ -88,10 +99,12 @@ body {
   background-color: rgba(211, 211, 211, 0.541);
   color: black !important;
 }
+
 .colmenu {
   display: inline;
   padding: 0 10% 0 0;
 }
+
 .header img {
   width: 100%;
   height: 100%;
@@ -102,10 +115,12 @@ body {
   -ms-filter: brightness(0.6);
   filter: brightness(0.6);
 }
+
 .title {
   font-family: "Muli Extra Bold";
   font-size: 2em;
 }
+
 .content {
   padding-top: 105vh;
   padding-left: 10%;
@@ -114,6 +129,7 @@ body {
   z-index: 50;
   margin-bottom: -10%;
 }
+
 .row {
   display: -ms-flexbox;
   display: flex;
@@ -122,6 +138,7 @@ body {
   min-height: 100%;
   padding-top: 10%;
 }
+
 .coltext {
   -ms-flex: 0 0 52%;
   flex: 0 0 52%;
@@ -130,6 +147,7 @@ body {
   margin-right: 5%;
   position: relative;
 }
+
 .colimg {
   -ms-flex: 0 0 38%;
   flex: 0 0 38%;
@@ -141,11 +159,13 @@ body {
   margin-left: 2%;
   height: 640px;
 }
+
 .glob img {
   display: block;
   margin-top: -10%;
   width: 155%;
 }
+
 .video img {
   display: block;
   width: 100%;
@@ -153,6 +173,7 @@ body {
   margin-left: -40%;
   width: 140%;
 }
+
 .colimg2 {
   -ms-flex: 0 0 38%;
   flex: 0 0 38%;
@@ -165,22 +186,27 @@ body {
   margin-right: 2%;
   height: 600px;
 }
+
 .hands img {
   display: block;
   margin-top: -40%;
   margin-left: 0;
   width: 140%;
 }
+
 ul {
   list-style: none;
 }
+
 li {
   padding-bottom: 30px;
 }
+
 li:before {
   content: url("../photos/arrow.png");
   padding-right: 10px;
 }
+
 .kontakt {
   text-align: center;
   font-family: "Muli Semi Bold";
@@ -188,9 +214,11 @@ li:before {
   width: 126%;
   background-color: #f5f7f9;
 }
+
 .form {
   padding: 0 35% 10px 35%;
 }
+
 .footer {
   color: white;
   margin-left: -13%;

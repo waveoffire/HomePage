@@ -8,8 +8,9 @@ var dots = ["photo0", "photo1", "photo2", "photo3"];
 var i = 0;
 var dot_picked = document.getElementById("photo0");
 var autoslide;
+
 function start() {
-  autoslide = setInterval(function() {
+  autoslide = setInterval(function () {
     for (var n = 0; n < dots.length; n++) {
       document.getElementById(dots[n]).src = "photos/dot.png";
     }
@@ -22,9 +23,11 @@ function start() {
     dot_picked.src = "photos/dot_picked.png";
   }, 2000);
 }
+
 function stop() {
   clearInterval(autoslide);
 }
+
 function next() {
   stop();
   document.getElementById(dots[i]).src = "photos/dot.png";
@@ -36,6 +39,7 @@ function next() {
   document.getElementById("slider").src = photos[i];
   start();
 }
+
 function last() {
   stop();
   document.getElementById(dots[i]).src = "photos/dot.png";

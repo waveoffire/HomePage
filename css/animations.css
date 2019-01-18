@@ -1,26 +1,32 @@
 html {
     scroll-behavior: smooth;
-  }
+}
 
-#dlakogo{
+#dlakogo {
     transform: translateX(-200%);
 }
-#dlakogophoto{
+
+#dlakogophoto {
     transform: translateX(200%);
 }
-#pocophoto{
+
+#pocophoto {
     transform: translateX(-200%);
 }
-#poco{
+
+#poco {
     transform: translateX(200%);
-    padding-left:40px;
+    padding-left: 40px;
 }
-#zkim{
+
+#zkim {
     transform: translateX(-200%);
 }
-#zkimphoto{
+
+#zkimphoto {
     transform: translateX(200%);
 }
+
 .slide-right {
     animation: slide-right 1s forwards;
     -webkit-animation: slide-right 1s forwards;
@@ -30,27 +36,59 @@ html {
     animation: slide-left 1s forwards;
     -webkit-animation: slide-left 1s forwards;
 }
-    
+
 @keyframes slide-right {
-    0%{transform: translateX(-200%)}
-    70% {transform: translateX(5%)}
-    100% { transform: translateX(0%); }
+    0% {
+        transform: translateX(-200%)
+    }
+
+    70% {
+        transform: translateX(5%)
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
 }
 
 @-webkit-keyframes slide-right {
-    0%{transform: translateX(-200%)}
-    70% {transform: translateX(5%)}
-    100% { transform: translateX(0%); }
+    0% {
+        transform: translateX(-200%)
+    }
+
+    70% {
+        transform: translateX(5%)
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
 }
-    
+
 @keyframes slide-left {
-    0%{transform: translateX(200%)}
-    70% {transform: translateX(-5%)}
-    100% { transform: translateX(0%); }
+    0% {
+        transform: translateX(200%)
+    }
+
+    70% {
+        transform: translateX(-5%)
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
 }
 
 @-webkit-keyframes slide-left {
-    0%{transform: translateX(200%)}
-    70% {transform: translateX(-5%)}
-    100% { transform: translateX(0%); }
+    0% {
+        transform: translateX(200%)
+    }
+
+    70% {
+        transform: translateX(-5%)
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
 }
