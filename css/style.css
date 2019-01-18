@@ -103,7 +103,8 @@ body {
 .colmenu {
   display: inline;
   padding: 0 10% 0 0;
-  font-size: 1.3em
+  font-size: 1.3em;
+  cursor: pointer;
 }
 
 .header img {
