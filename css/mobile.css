@@ -1,11 +1,38 @@
 @media only screen and (max-width: 1000px) {
     .sticky {
-        height: 150px;
+        position: relative;
+        top: 0;
+        left: 0;
         width: 100%;
+    }
+
+    .stickyScroll {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    .coltext {
+        width: 100%
+    }
+
+    .colimg {
+        width: 100%;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        margin: 0%;
+        padding: 0;
+
     }
 
     .colmenu {
         font-size: 1em;
+        width: 100%;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        margin: 0%;
+        padding: 0;
     }
 
     body {
@@ -14,7 +41,8 @@
 
     .header {
         min-height: 100px;
-        width: 100%
+        width: 100%;
+        overflow: hidden
     }
 
     .slide-right {
@@ -41,6 +69,7 @@
 
     #poco {
         transform: translateX(0);
+        padding: 0;
     }
 
     #zkim {
@@ -49,5 +78,21 @@
 
     #zkimphoto {
         transform: translateX(0);
+    }
+
+    #slider {
+        width: 400%;
+        transform: translateX(-70%)
+    }
+
+    .row {
+        display: block
+    }
+
+    .colimg2 {
+        display: block;
+        width: 100%;
+        margin: 0%;
+        padding: 0;
     }
 }

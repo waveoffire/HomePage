@@ -21,7 +21,7 @@ function start() {
     document.getElementById("slider").src = photos[i];
     dot_picked = document.getElementById(dots[i]);
     dot_picked.src = "photos/dot_picked.png";
-  }, 2000);
+  }, 4000);
 }
 
 function stop() {
