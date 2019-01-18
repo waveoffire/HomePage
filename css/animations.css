@@ -4,27 +4,33 @@ html {
 
 #dlakogo {
     transform: translateX(-200%);
+    overflow: hidden;
 }
 
 #dlakogophoto {
     transform: translateX(200%);
+    overflow: hidden;
 }
 
 #pocophoto {
     transform: translateX(-200%);
+    overflow: hidden;
 }
 
 #poco {
     transform: translateX(200%);
     padding-left: 40px;
+    overflow: hidden;
 }
 
 #zkim {
     transform: translateX(-200%);
+    overflow: hidden;
 }
 
 #zkimphoto {
     transform: translateX(200%);
+    overflow: hidden;
 }
 
 .slide-right {
@@ -39,11 +45,11 @@ html {
 
 @keyframes slide-right {
     0% {
-        transform: translateX(-200%)
+        transform: translateX(-200%), display(none)
     }
 
     70% {
-        transform: translateX(5%)
+        transform: translateX(5%), display(block)
     }
 
     100% {
